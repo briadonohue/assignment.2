@@ -1,0 +1,58 @@
+html,
+#container {
+    background-color: #0078d7;
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+}
+.header {
+    background-color: #04048a;
+    font-family: sans-serif;
+    color: #fff;
+    padding: .5rem;
+}
+
+.navigation {
+    margin-top: 2rem;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.podcast-name {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.podcast-name {
+    cursor: pointer;
+    background-color: aliceblue;
+
+}
+
+.podcast-tile {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.column {
+    margin: 0;
+    flex: 1 0 50%;
+    box-sizing: border-box;
+}
+
+#right {
+    padding: 8px
+}
+
+#right img {
+    width: 100%;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
